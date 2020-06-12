@@ -1,8 +1,0 @@
-wget https://studygolang.com/dl/golang/go1.13.5.linux-amd64.tar.gz
-tar -C /usr/local -xzf go*.tar.gz
-export PATH=$PATH:/usr/local/go/bin
-source $HOME/.profile
-
-
-export GOPROXY=https://goproxy.cn
-source $HOME/.profile
